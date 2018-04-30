@@ -1,0 +1,209 @@
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: $font-primary;
+        color: $font-color;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* this is for large devices (Desktops & laptops) */
+    
+    @media (min-width: 1200px) {
+        .row {
+            @include clearfix;
+            &--gutter>div {
+                padding-right: 65px;
+                box-sizing: border-box;
+            }
+            &__medium-4 {
+                float: left;
+                width: 33.33%;
+            }
+            &__medium-8 {
+                float: left;
+                width: 66.66%;
+            }
+            &__content {
+                text-align: justify;
+                line-height: 1.65;
+            }
+        }
+    }
+    /* Medium Devices (landscape tablets & medium desktop) */
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .row {
+            @include clearfix;
+            &--gutter>div {
+                padding-right: 45px;
+                box-sizing: border-box;
+            }
+            &__medium-4 {
+                float: left;
+                width: 40%;
+            }
+            &__medium-8 {
+                float: left;
+                width: 60%;
+            }
+            &__content {
+                text-align: justify;
+                line-height: 1.65;
+            }
+        }
+        .headline {
+            font-size: 2rem;
+        }
+    }
+    /* Small Devices (portrait tablets & small desktop) */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .large-hero__text-content {
+            width: 100%;
+            p {
+                padding: 3px;
+                margin-bottom: 20px;
+            }
+        }
+        .headline {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 13px;
+        }
+        .row {
+            @include clearfix;
+            &--gutter>div {
+                padding-right: 40px;
+                box-sizing: border-box;
+            }
+            &__medium-4 {
+                float: left;
+                width: 50%;
+            }
+            &__medium-8 {
+                float: left;
+                width: 50%;
+            }
+            &__content {
+                font-size: 1rem;
+                text-align: justify;
+                line-height: 1.65;
+            }
+        }
+        .headline {
+            font-size: 2rem;
+        }
+    }
+    
+    @media (min-width: 481px) and (max-width: 768px) {
+        .large-hero__text-content {
+            width: 100%;
+            h1 {
+                font-size: 4rem;
+            }
+            h2 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.5rem;
+                padding: 3px;
+                margin-bottom: 20px;
+            }
+        }
+        .page-section {
+            padding-top: 0;
+            .headline {
+                font-size: 2.5rem;
+                &--small {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+        .row {
+            &__content {
+                text-align: justify;
+            }
+            .headline {
+                font-size: 1.9rem;
+                padding-top: 1rem;
+            }
+        }
+    }
+    /* Small Devices (portrait tablets & small desktop) */
+    
+    @media (min-width: 381px) and (max-width: 480px) {
+        .large-hero__text-content {
+            width: 100%;
+            h1 {
+                font-size: 3.5rem;
+            }
+            h2 {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+        .page-section {
+            padding-top: 0;
+            .headline {
+                font-size: 1.8rem;
+                &--small {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .row {
+            .headline {
+                font-size: 1.9rem;
+                padding-top: 0;
+            }
+            &__content {
+                text-align: justify;
+            }
+        }
+    }
+    
+    @media (min-width: 266px) and (max-width: 380px) {
+        .large-hero__text-content {
+            width: 100%;
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .btn {
+                &--large {
+                    font-size: 1rem;
+                }
+            }
+        }
+        .page-section {
+            padding-top: 0;
+            .headline {
+                font-size: 1.8rem;
+                &--small {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .row {
+            .headline {
+                font-size: 1.6rem;
+                padding-top: 0;
+            }
+            &__content {
+                font-size: 13px;
+                text-align: justify;
+            }
+        }
+    }

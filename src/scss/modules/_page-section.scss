@@ -1,0 +1,15 @@
+.page-section {
+    padding-top: 4.5rem;
+    &--blue {
+        background: $primary-blue;
+        color: #ffffff;
+    }
+}
+
+.page-med-section {
+    padding-top: 2rem;
+}
+
+.down-space {
+    padding-bottom: 1rem
+}

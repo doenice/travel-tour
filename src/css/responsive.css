@@ -1,0 +1,44 @@
+/* this is for large devices (Desktops & laptops) */
+
+@media (min-width: 1200px) {}
+
+
+/* Medium Devices (landscape tablets & medium desktop) */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Small Devices (portrait tablets & small desktop) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 .large-hero__text-title {
+        font-size: 2rem;
+    }
+}
+
+
+/* Small Devices (portrait tablets & small desktop) */
+
+@media (max-width: 767px) {
+    h1 .large-hero__text-title {
+        font-size: 2rem;
+    }
+}
+
+
+/* Small Devices (smaller devices) */
+
+@media (max-width: 480px) {
+    h1 .large-hero__text-title {
+        font-size: 2rem;
+    }
+}
+
+
+/* Small Devices (smaller devices) */
+
+@media (max-width: 266px) {
+    .large-hero h1 .large-hero__text-title {
+        font-size: 2rem;
+    }
+}

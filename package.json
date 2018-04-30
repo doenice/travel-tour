@@ -1,0 +1,17 @@
+{
+  "name": "traveltours",
+  "version": "1.0.0",
+  "description": "travel & tours web page theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "postcss-mixins": "^6.2.0"
+  },
+  "author": "Nelj",
+  "license": "ISC"
+}

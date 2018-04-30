@@ -1,0 +1,16 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/global";
+@import "modules/large-hero";
+@import "modules/btn";
+@import "modules/page-section";
+@import "modules/wrapper";
+@import "modules/row";
+@import "section/feature";
+@import "section/beginning";
+.row {
+    a {
+        font-weight: 700;
+        color: $btn-orange;
+    }
+}

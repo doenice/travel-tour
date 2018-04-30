@@ -1,0 +1,33 @@
+.headline {
+    font-weight: 300;
+    font-size: 2.8rem;
+    color: $primary-blue;
+    &--center {
+        text-align: center;
+    }
+    &--orange {
+        color: $btn-orange;
+    }
+    &--small {
+        font-size: 1.875rem;
+    }
+    &--narrow {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &--bold {
+        color: $primary-blue;
+        font-weight: bold;
+    }
+    &--bold-gold {
+        color: $btn-orange;
+        font-weight: bold;
+    }
+    &--margin-small {
+        margin-bottom: .5em;
+    }
+    &--margin-large {
+        margin-bottom: 1.6em;
+    }
+}
